@@ -5,8 +5,6 @@ var xData = function () {
     }
     return data;
 }();
-
-var myChart = echarts.init(document.getElementById('graph1'));
 option1 = {
     backgroundColor: "#344b58",
     "title": {
@@ -32,7 +30,6 @@ option1 = {
             textStyle: {
                 color: "#fff"
             }
-
         },
     },
     "grid": {
@@ -49,7 +46,7 @@ option1 = {
         textStyle: {
             color: '#90979c',
         },
-        "data": ['Residential', 'Commercial', 'Industrial', 'Transport ', 'Total']
+        "data": ['Residential', 'Commercial', 'Industrial', 'Transport', 'Total']
     },
 
 
@@ -236,4 +233,14 @@ option1 = {
     },
     ]
 }
+
+var myChart = echarts.init(document.getElementById('graph1'));
 myChart.setOption(option1);
+
+$(function () {
+    $.getJSON('option2.json', function (data) {
+        var option2 = data;
+        var myChart2 = echarts.init(document.getElementById('graph2'));
+        myChart2.setOption(option2);
+    })
+});

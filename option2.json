@@ -1,0 +1,818 @@
+{
+    "timeline": {
+        "data": [
+            "2004-01-01",
+            "2005-01-01",
+            "2006-01-01",
+            "2007-01-01",
+            "2008-01-01",
+            {
+                "name": "2009-01-01",
+                "symbol": "emptyStar6",
+                "symbolSize": 8
+            },
+            "2010-01-01",
+            "2011-01-01",
+            "2012-01-01",
+            "2013-01-01",
+            "2014-01-01"
+        ],
+        "symbolRotate": 30,
+        "playInterval": 3000,
+        "loop": true,
+        "autoPlay": true,
+        "symbol": "circle"
+    },
+    "options": [
+        {
+            "title": {
+                "text": "All Energy End-uses "
+            },
+            "tooltip": {
+                "trigger": "item",
+                "formatter": "{a} <br/>{b} : {c} ({d}%)"
+            },
+            "legend": {
+                "top": "10%",
+                "data": [
+                    "Space Conditioning",
+                    "Cooking",
+                    "industrial Process/Equipment",
+                    "Lighting",
+                    "Refrigeration",
+                    "Hot Water",
+                    "Goods Vehicle",
+                    "Bus",
+                    "Taxi",
+                    "Car",
+                    "Motorcycle",
+                    "Rail",
+                    "Marine",
+                    "Others"
+                ]
+            },
+            "toolbox": {
+                "show": true,
+                "feature": {
+                    "mark": {
+                        "show": true
+                    },
+                    "dataView": {
+                        "show": true,
+                        "readOnly": false
+                    },
+                    "magictype": {
+                        "show": true,
+                        "type": [
+                            "pie",
+                            "funnel"
+                        ],
+                        "option": {
+                            "funnel": {
+                                "x": "25%",
+                                "width": "50%",
+                                "funnelAlign": "left",
+                                "max": 1700
+                            }
+                        }
+                    },
+                    "restore": {
+                        "show": true
+                    },
+                    "saveAsImage": {
+                        "show": true
+                    }
+                }
+            },
+            "series": [
+                {
+                    "name": "2004",
+                    "type": "pie",
+                    "center": [
+                        "50%",
+                        "45%"
+                    ],
+                    "radius": "50%",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 46658
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 30946
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 15994
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 22536
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 7446
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 12695
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 32830
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 20389
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 12505
+                        },
+                        {
+                            "name": "Car",
+                            "value": 16682
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 454
+                        },
+                        {
+                            "name": "Rail",
+                            "value": 5183
+                        },
+                        {
+                            "name": "Marine",
+                            "value": 10462
+                        },
+                        {
+                            "name": "Others",
+                            "value": 45757
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "name": "2005",
+                    "type": "pie",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 46658
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 30946
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 15994
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 22536
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 7446
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 12695
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 32830
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 20389
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 12505
+                        },
+                        {
+                            "name": "Car",
+                            "value": 16682
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 454
+                        },
+                        {
+                            "name": "Rail",
+                            "value": 5183
+                        },
+                        {
+                            "name": "Marine",
+                            "value": 10462
+                        },
+                        {
+                            "name": "Others",
+                            "value": 45757
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "name": "2006",
+                    "type": "pie",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 46502
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 31836
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 16465
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 21608
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 7918
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 12776
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 32551
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 20301
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 13797
+                        },
+                        {
+                            "name": "Car",
+                            "value": 16267
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 426
+                        },
+                        {
+                            "name": "Rail",
+                            "value": 2454
+                        },
+                        {
+                            "name": "Marine",
+                            "value": 10413
+                        },
+                        {
+                            "name": "Others",
+                            "value": 47890
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "name": "2007",
+                    "type": "pie",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 45298
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 32885
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 17071
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 20372
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 8496
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 13172
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 31771
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 19832
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 14102
+                        },
+                        {
+                            "name": "Car",
+                            "value": 17118
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 463
+                        },
+                        {
+                            "name": "Rail",
+                            "value": 2506
+                        },
+                        {
+                            "name": "Marine",
+                            "value": 10158
+                        },
+                        {
+                            "name": "Others",
+                            "value": 49197
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "name": "2008",
+                    "type": "pie",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 43392
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 34023
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 17734
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 18965
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 9121
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 13788
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 30438
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 18971
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 15142
+                        },
+                        {
+                            "name": "Car",
+                            "value": 17059
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 480
+                        },
+                        {
+                            "name": "Rail",
+                            "value": 2527
+                        },
+                        {
+                            "name": "Marine",
+                            "value": 9680
+                        },
+                        {
+                            "name": "Others",
+                            "value": 50117
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "name": "2009",
+                    "type": "pie",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 44117
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 33302
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 17173
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 19199
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 9244
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 13824
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 28501
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 19150
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 13131
+                        },
+                        {
+                            "name": "Car",
+                            "value": 17449
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 465
+                        },
+                        {
+                            "name": "Rail",
+                            "value": 2529
+                        },
+                        {
+                            "name": "Marine",
+                            "value": 9228
+                        },
+                        {
+                            "name": "Others",
+                            "value": 51487
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "name": "2010",
+                    "type": "pie",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 45511
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 33379
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 17413
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 19563
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 9213
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 13936
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 28585
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 18842
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 13373
+                        },
+                        {
+                            "name": "Car",
+                            "value": 18247
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 436
+                        },
+                        {
+                            "name": "Rail",
+                            "value": 2542
+                        },
+                        {
+                            "name": "Marine",
+                            "value": 8672
+                        },
+                        {
+                            "name": "Others",
+                            "value": 52019
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "name": "2011",
+                    "type": "pie",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 46204
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 32882
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 17855
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 20045
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 8962
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 14119
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 28010
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 18911
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 13593
+                        },
+                        {
+                            "name": "Car",
+                            "value": 18879
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 424
+                        },
+                        {
+                            "name": "Rail",
+                            "value": 2609
+                        },
+                        {
+                            "name": "Marine",
+                            "value": 8245
+                        },
+                        {
+                            "name": "Others",
+                            "value": 51977
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "name": "2012",
+                    "type": "pie",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 47158
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 32626
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 18332
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 20411
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 8834
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 14113
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 26941
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 19128
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 13469
+                        },
+                        {
+                            "name": "Car",
+                            "value": 19561
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 423
+                        },
+                        {
+                            "name": "Rail",
+                            "value": 2722
+                        },
+                        {
+                            "name": "Marine",
+                            "value": 8077
+                        },
+                        {
+                            "name": "Others",
+                            "value": 54086
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "name": "2013",
+                    "type": "pie",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 45562
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 32792
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 18669
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 20446
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 8716
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 14226
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 25534
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 19144
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 13319
+                        },
+                        {
+                            "name": "Car",
+                            "value": 21158
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 406
+                        },
+                        {
+                            "name": "Rail",
+                            "value": 2796
+                        },
+                        {
+                            "name": "Marine",
+                            "value": 7739
+                        },
+                        {
+                            "name": "Others",
+                            "value": 53703
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "series": [
+                {
+                    "name": "2014",
+                    "type": "pie",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 50129
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 32674
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 19065
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 20421
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 9145
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 14241
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 25009
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 18659
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 14133
+                        },
+                        {
+                            "name": "Car",
+                            "value": 21085
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 426
+                        },
+                        {
+                            "name": "Rail",
+                            "value": 2875
+                        },
+                        {
+                            "name": "Marine",
+                            "value": 7705
+                        },
+                        {
+                            "name": "Others",
+                            "value": 53592
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
