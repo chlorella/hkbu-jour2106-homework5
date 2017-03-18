@@ -1,278 +1,415 @@
 {
-    "timeline": {
-        "data": [
-            "2004-01-01",
-            "2005-01-01",
-            "2006-01-01",
-            "2007-01-01",
-            "2008-01-01",
+    "baseOption": {
+        "timeline": {
+            "axisType": "category",
+            "autoPlay": true,
+            "playInterval": 3000,
+            "data": [
+                "2004-01-01 ",
+                "2005-01-01 ",
+                "2006-01-01 ",
+                "2007-01-01 ",
+                "2008-01-01 ",
+                "2009-01-01 ",
+                "2010-01-01 ",
+                {
+                    "name": "2011-01-01",
+                    "symbol": "emptyStar6",
+                    "symbolSize": 8
+                },
+                "2012-01-01 ",
+                "2013-01-01 ",
+                "2014-01-01 "
+            ]
+        },
+        "title": {
+            "subtext": "All Energy End-uses",
+            "subtextStyle": {
+                "align": "center"
+            }
+        },
+        "tooltip": {
+            "formatter": "{a} <br/>{b} : {c} ({d}%)"
+        },
+        "legend": {
+            "x": "right",
+            "data": [
+                "Commercial",
+                "Transport-Passenger ",
+                "total"
+            ],
+            "selectedMode": "single"
+        },
+        "calculable": true,
+        "series": [
             {
-                "name": "2009-01-01",
-                "symbol": "emptyStar6",
-                "symbolSize": 8
+                "name": "Commercial",
+                "type": "pie",
+                "center": [
+                    "50%",
+                    "50%"
+                ]
             },
-            "2010-01-01",
-            "2011-01-01",
-            "2012-01-01",
-            "2013-01-01",
-            "2014-01-01"
-        ],
-        "symbolRotate": 30,
-        "playInterval": 3000,
-        "loop": true,
-        "autoPlay": true,
-        "symbol": "circle"
+            {
+                "name": "Transport-Passenger ",
+                "type": "pie",
+                "center": [
+                    "50%",
+                    "50%"
+                ]
+            },
+            {
+                "name": "total",
+                "type": "pie",
+                "center": [
+                    "50%",
+                    "50%"
+                ]
+            }
+        ]
     },
     "options": [
         {
             "title": {
-                "text": "All Energy End-uses "
-            },
-            "tooltip": {
-                "trigger": "item",
-                "formatter": "{a} <br/>{b} : {c} ({d}%)"
-            },
-            "legend": {
-                "top": "10%",
-                "data": [
-                    "Space Conditioning",
-                    "Cooking",
-                    "industrial Process/Equipment",
-                    "Lighting",
-                    "Refrigeration",
-                    "Hot Water",
-                    "Goods Vehicle",
-                    "Bus",
-                    "Taxi",
-                    "Car",
-                    "Motorcycle",
-                    "Rail",
-                    "Marine",
-                    "Others"
-                ]
-            },
-            "toolbox": {
-                "show": true,
-                "feature": {
-                    "mark": {
-                        "show": true
-                    },
-                    "dataView": {
-                        "show": true,
-                        "readOnly": false
-                    },
-                    "magictype": {
-                        "show": true,
-                        "type": [
-                            "pie",
-                            "funnel"
-                        ],
-                        "option": {
-                            "funnel": {
-                                "x": "25%",
-                                "width": "50%",
-                                "funnelAlign": "left",
-                                "max": 1700
-                            }
-                        }
-                    },
-                    "restore": {
-                        "show": true
-                    },
-                    "saveAsImage": {
-                        "show": true
-                    }
-                }
+                "text": "2004"
             },
             "series": [
                 {
-                    "name": "2004",
-                    "type": "pie",
-                    "center": [
-                        "50%",
-                        "45%"
-                    ],
-                    "radius": "50%",
+                    "name": "Transport-Passenger ",
                     "data": [
                         {
-                            "name": "Space Conditioning",
-                            "value": 46658
-                        },
-                        {
-                            "name": "Cooking",
-                            "value": 30946
-                        },
-                        {
-                            "name": "industrial Process/Equipment",
-                            "value": 15994
-                        },
-                        {
-                            "name": "Lighting",
-                            "value": 22536
-                        },
-                        {
-                            "name": "Refrigeration",
-                            "value": 7446
-                        },
-                        {
-                            "name": "Hot Water",
-                            "value": 12695
-                        },
-                        {
-                            "name": "Goods Vehicle",
-                            "value": 32830
-                        },
-                        {
                             "name": "Bus",
-                            "value": 20389
+                            "value": 21326.48
                         },
                         {
                             "name": "Taxi",
-                            "value": 12505
+                            "value": 10844.3
                         },
                         {
-                            "name": "Car",
-                            "value": 16682
+                            "name": "Car ",
+                            "value": 16986.69
                         },
                         {
                             "name": "Motorcycle",
-                            "value": 454
+                            "value": 439.98
+                        },
+                        {
+                            "name": "Rail ",
+                            "value": 4967.46
+                        },
+                        {
+                            "name": "Other",
+                            "value": 3719.03
+                        }
+                    ]
+                },
+                {
+                    "name": "Commercial",
+                    "data": [
+                        {
+                            "name": "Restaurant",
+                            "value": 25836.89
+                        },
+                        {
+                            "name": "Retail",
+                            "value": 16633.53
+                        },
+                        {
+                            "name": "Office",
+                            "value": 14326.92
+                        },
+                        {
+                            "name": "Other Commercial",
+                            "value": 49002.2
+                        }
+                    ]
+                },
+                {
+                    "name": "total",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 46185.55
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 31468.92
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 15487.12
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 22190.48
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 6795.65
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 12395.78
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 33768.02
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 21326.48
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 10844.3
+                        },
+                        {
+                            "name": "Car",
+                            "value": 16986.69
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 439.98
                         },
                         {
                             "name": "Rail",
-                            "value": 5183
+                            "value": 4995.77
                         },
                         {
                             "name": "Marine",
-                            "value": 10462
+                            "value": 12216.67
                         },
                         {
                             "name": "Others",
-                            "value": 45757
+                            "value": 45213.35
                         }
                     ]
                 }
             ]
         },
         {
+            "title": {
+                "text": "2005"
+            },
             "series": [
                 {
-                    "name": "2005",
-                    "type": "pie",
+                    "name": "Transport-Passenger ",
                     "data": [
                         {
-                            "name": "Space Conditioning",
-                            "value": 46658
-                        },
-                        {
-                            "name": "Cooking",
-                            "value": 30946
-                        },
-                        {
-                            "name": "industrial Process/Equipment",
-                            "value": 15994
-                        },
-                        {
-                            "name": "Lighting",
-                            "value": 22536
-                        },
-                        {
-                            "name": "Refrigeration",
-                            "value": 7446
-                        },
-                        {
-                            "name": "Hot Water",
-                            "value": 12695
-                        },
-                        {
-                            "name": "Goods Vehicle",
-                            "value": 32830
-                        },
-                        {
                             "name": "Bus",
-                            "value": 20389
+                            "value": 20389.48
                         },
                         {
                             "name": "Taxi",
-                            "value": 12505
+                            "value": 12505.45
                         },
                         {
-                            "name": "Car",
-                            "value": 16682
+                            "name": "Car ",
+                            "value": 16681.73
                         },
                         {
                             "name": "Motorcycle",
-                            "value": 454
+                            "value": 453.97
+                        },
+                        {
+                            "name": "Rail ",
+                            "value": 5163.14
+                        },
+                        {
+                            "name": "Other",
+                            "value": 3872.84
+                        }
+                    ]
+                },
+                {
+                    "name": "Commercial",
+                    "data": [
+                        {
+                            "name": "Restaurant",
+                            "value": 23208.09
+                        },
+                        {
+                            "name": "Retail",
+                            "value": 15048.83
+                        },
+                        {
+                            "name": "Office",
+                            "value": 13818.21
+                        },
+                        {
+                            "name": "Other Commercial",
+                            "value": 55205.42
+                        }
+                    ]
+                },
+                {
+                    "name": "total",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 46658.2
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 30945.51
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 15993.61
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 22535.78
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 7446.4
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 12695.35
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 32829.79
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 20389.48
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 12505.45
+                        },
+                        {
+                            "name": "Car",
+                            "value": 16681.73
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 453.97
                         },
                         {
                             "name": "Rail",
-                            "value": 5183
+                            "value": 5182.98
                         },
                         {
                             "name": "Marine",
-                            "value": 10462
+                            "value": 10462.28
                         },
                         {
                             "name": "Others",
-                            "value": 45757
+                            "value": 45756.83
                         }
                     ]
                 }
             ]
         },
         {
+            "title": {
+                "text": "2006"
+            },
             "series": [
                 {
-                    "name": "2006",
-                    "type": "pie",
+                    "name": "Transport-Passenger ",
                     "data": [
                         {
-                            "name": "Space Conditioning",
-                            "value": 46502
-                        },
-                        {
-                            "name": "Cooking",
-                            "value": 31836
-                        },
-                        {
-                            "name": "industrial Process/Equipment",
-                            "value": 16465
-                        },
-                        {
-                            "name": "Lighting",
-                            "value": 21608
-                        },
-                        {
-                            "name": "Refrigeration",
-                            "value": 7918
-                        },
-                        {
-                            "name": "Hot Water",
-                            "value": 12776
-                        },
-                        {
-                            "name": "Goods Vehicle",
-                            "value": 32551
-                        },
-                        {
                             "name": "Bus",
-                            "value": 20301
+                            "value": 20300.75
                         },
                         {
                             "name": "Taxi",
-                            "value": 13797
+                            "value": 13797.47
                         },
                         {
-                            "name": "Car",
-                            "value": 16267
+                            "name": "Car ",
+                            "value": 16266.57
                         },
                         {
                             "name": "Motorcycle",
-                            "value": 426
+                            "value": 426.31
+                        },
+                        {
+                            "name": "Rail ",
+                            "value": 2443.58
+                        },
+                        {
+                            "name": "Other",
+                            "value": 4016.72
+                        }
+                    ]
+                },
+                {
+                    "name": "Commercial",
+                    "data": [
+                        {
+                            "name": "Restaurant",
+                            "value": 23397.42
+                        },
+                        {
+                            "name": "Retail",
+                            "value": 16212.61
+                        },
+                        {
+                            "name": "Office",
+                            "value": 13189.77
+                        },
+                        {
+                            "name": "Other Commercial",
+                            "value": 59083.84
+                        }
+                    ]
+                },
+                {
+                    "name": "total",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 46502.16
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 31835.62
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 16464.68
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 21607.83
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 7917.67
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 12775.97
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 32551.06
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 20300.75
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 13797.47
+                        },
+                        {
+                            "name": "Car",
+                            "value": 16266.57
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 426.31
                         },
                         {
                             "name": "Rail",
-                            "value": 2454
+                            "value": 2454.35
                         },
                         {
                             "name": "Marine",
@@ -280,65 +417,117 @@
                         },
                         {
                             "name": "Others",
-                            "value": 47890
+                            "value": 47890.42
                         }
                     ]
                 }
             ]
         },
         {
+            "title": {
+                "text": "2007"
+            },
             "series": [
                 {
-                    "name": "2007",
-                    "type": "pie",
+                    "name": "Transport-Passenger ",
                     "data": [
                         {
-                            "name": "Space Conditioning",
-                            "value": 45298
-                        },
-                        {
-                            "name": "Cooking",
-                            "value": 32885
-                        },
-                        {
-                            "name": "industrial Process/Equipment",
-                            "value": 17071
-                        },
-                        {
-                            "name": "Lighting",
-                            "value": 20372
-                        },
-                        {
-                            "name": "Refrigeration",
-                            "value": 8496
-                        },
-                        {
-                            "name": "Hot Water",
-                            "value": 13172
-                        },
-                        {
-                            "name": "Goods Vehicle",
-                            "value": 31771
-                        },
-                        {
                             "name": "Bus",
-                            "value": 19832
+                            "value": 19831.73
                         },
                         {
                             "name": "Taxi",
-                            "value": 14102
+                            "value": 14101.97
                         },
                         {
-                            "name": "Car",
-                            "value": 17118
+                            "name": "Car ",
+                            "value": 17117.72
                         },
                         {
                             "name": "Motorcycle",
-                            "value": 463
+                            "value": 463.49
+                        },
+                        {
+                            "name": "Rail ",
+                            "value": 2495.06
+                        },
+                        {
+                            "name": "Other",
+                            "value": 3973.03
+                        }
+                    ]
+                },
+                {
+                    "name": "Commercial",
+                    "data": [
+                        {
+                            "name": "Restaurant",
+                            "value": 22929.21
+                        },
+                        {
+                            "name": "Retail",
+                            "value": 16624.13
+                        },
+                        {
+                            "name": "Office",
+                            "value": 12569.79
+                        },
+                        {
+                            "name": "Other Commercial",
+                            "value": 61790.47
+                        }
+                    ]
+                },
+                {
+                    "name": "total",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 45297.73
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 32885.25
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 17070.82
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 20372.09
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 8495.59
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 13171.68
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 31770.62
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 19831.73
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 14101.97
+                        },
+                        {
+                            "name": "Car",
+                            "value": 17117.72
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 463.49
                         },
                         {
                             "name": "Rail",
-                            "value": 2506
+                            "value": 2506.17
                         },
                         {
                             "name": "Marine",
@@ -346,45 +535,97 @@
                         },
                         {
                             "name": "Others",
-                            "value": 49197
+                            "value": 49197.01
                         }
                     ]
                 }
             ]
         },
         {
+            "title": {
+                "text": "2008"
+            },
             "series": [
                 {
-                    "name": "2008",
-                    "type": "pie",
+                    "name": "Transport-Passenger ",
+                    "data": [
+                        {
+                            "name": "Bus",
+                            "value": 18971
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 15142.34
+                        },
+                        {
+                            "name": "Car ",
+                            "value": 17059.12
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 479.7
+                        },
+                        {
+                            "name": "Rail ",
+                            "value": 2519.95
+                        },
+                        {
+                            "name": "Other",
+                            "value": 3965.21
+                        }
+                    ]
+                },
+                {
+                    "name": "Commercial",
+                    "data": [
+                        {
+                            "name": "Restaurant",
+                            "value": 24157.37
+                        },
+                        {
+                            "name": "Retail",
+                            "value": 15686.43
+                        },
+                        {
+                            "name": "Office",
+                            "value": 11893.69
+                        },
+                        {
+                            "name": "Other Commercial",
+                            "value": 62015.42
+                        }
+                    ]
+                },
+                {
+                    "name": "total",
                     "data": [
                         {
                             "name": "Space Conditioning",
-                            "value": 43392
+                            "value": 43392.44
                         },
                         {
                             "name": "Cooking",
-                            "value": 34023
+                            "value": 34023.41
                         },
                         {
                             "name": "industrial Process/Equipment",
-                            "value": 17734
+                            "value": 17733.58
                         },
                         {
                             "name": "Lighting",
-                            "value": 18965
+                            "value": 18965.28
                         },
                         {
                             "name": "Refrigeration",
-                            "value": 9121
+                            "value": 9121.03
                         },
                         {
                             "name": "Hot Water",
-                            "value": 13788
+                            "value": 13788.04
                         },
                         {
                             "name": "Goods Vehicle",
-                            "value": 30438
+                            "value": 30438.24
                         },
                         {
                             "name": "Bus",
@@ -392,407 +633,755 @@
                         },
                         {
                             "name": "Taxi",
-                            "value": 15142
+                            "value": 15142.34
                         },
                         {
                             "name": "Car",
-                            "value": 17059
+                            "value": 17059.12
                         },
                         {
                             "name": "Motorcycle",
-                            "value": 480
+                            "value": 479.7
                         },
                         {
                             "name": "Rail",
-                            "value": 2527
+                            "value": 2526.73
                         },
                         {
                             "name": "Marine",
-                            "value": 9680
+                            "value": 9680.11
                         },
                         {
                             "name": "Others",
-                            "value": 50117
+                            "value": 50117.13
                         }
                     ]
                 }
             ]
         },
         {
+            "title": {
+                "text": "2009"
+            },
             "series": [
                 {
-                    "name": "2009",
-                    "type": "pie",
+                    "name": "Transport-Passenger ",
                     "data": [
                         {
-                            "name": "Space Conditioning",
-                            "value": 44117
-                        },
-                        {
-                            "name": "Cooking",
-                            "value": 33302
-                        },
-                        {
-                            "name": "industrial Process/Equipment",
-                            "value": 17173
-                        },
-                        {
-                            "name": "Lighting",
-                            "value": 19199
-                        },
-                        {
-                            "name": "Refrigeration",
-                            "value": 9244
-                        },
-                        {
-                            "name": "Hot Water",
-                            "value": 13824
-                        },
-                        {
-                            "name": "Goods Vehicle",
-                            "value": 28501
-                        },
-                        {
                             "name": "Bus",
-                            "value": 19150
+                            "value": 19149.95
                         },
                         {
                             "name": "Taxi",
-                            "value": 13131
+                            "value": 13131.11
                         },
                         {
-                            "name": "Car",
-                            "value": 17449
+                            "name": "Car ",
+                            "value": 17448.55
                         },
                         {
                             "name": "Motorcycle",
-                            "value": 465
+                            "value": 465.31
+                        },
+                        {
+                            "name": "Rail ",
+                            "value": 2522.9
+                        },
+                        {
+                            "name": "Other",
+                            "value": 4000.41
+                        }
+                    ]
+                },
+                {
+                    "name": "Commercial",
+                    "data": [
+                        {
+                            "name": "Restaurant",
+                            "value": 23298.58
+                        },
+                        {
+                            "name": "Retail",
+                            "value": 15959.89
+                        },
+                        {
+                            "name": "Office",
+                            "value": 11787.52
+                        },
+                        {
+                            "name": "Other Commercial",
+                            "value": 63250.86
+                        }
+                    ]
+                },
+                {
+                    "name": "total",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 44116.56
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 33302.26
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 17173.48
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 19198.95
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 9243.95
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 13824.42
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 28500.87
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 19149.95
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 13131.11
+                        },
+                        {
+                            "name": "Car",
+                            "value": 17448.55
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 465.31
                         },
                         {
                             "name": "Rail",
-                            "value": 2529
+                            "value": 2528.95
                         },
                         {
                             "name": "Marine",
-                            "value": 9228
+                            "value": 9228.4
                         },
                         {
                             "name": "Others",
-                            "value": 51487
+                            "value": 51486.67
                         }
                     ]
                 }
             ]
         },
         {
+            "title": {
+                "text": "2010"
+            },
             "series": [
                 {
-                    "name": "2010",
-                    "type": "pie",
+                    "name": "Transport-Passenger ",
                     "data": [
                         {
-                            "name": "Space Conditioning",
-                            "value": 45511
-                        },
-                        {
-                            "name": "Cooking",
-                            "value": 33379
-                        },
-                        {
-                            "name": "industrial Process/Equipment",
-                            "value": 17413
-                        },
-                        {
-                            "name": "Lighting",
-                            "value": 19563
-                        },
-                        {
-                            "name": "Refrigeration",
-                            "value": 9213
-                        },
-                        {
-                            "name": "Hot Water",
-                            "value": 13936
-                        },
-                        {
-                            "name": "Goods Vehicle",
-                            "value": 28585
-                        },
-                        {
                             "name": "Bus",
-                            "value": 18842
+                            "value": 18841.99
                         },
                         {
                             "name": "Taxi",
-                            "value": 13373
+                            "value": 13372.73
                         },
                         {
-                            "name": "Car",
-                            "value": 18247
+                            "name": "Car ",
+                            "value": 18246.85
                         },
                         {
                             "name": "Motorcycle",
-                            "value": 436
+                            "value": 435.64
+                        },
+                        {
+                            "name": "Rail ",
+                            "value": 2539.55
+                        },
+                        {
+                            "name": "Other",
+                            "value": 4123.68
+                        }
+                    ]
+                },
+                {
+                    "name": "Commercial",
+                    "data": [
+                        {
+                            "name": "Restaurant",
+                            "value": 24184.96
+                        },
+                        {
+                            "name": "Retail",
+                            "value": 15711.23
+                        },
+                        {
+                            "name": "Office",
+                            "value": 12194.75
+                        },
+                        {
+                            "name": "Other Commercial",
+                            "value": 64300.02
+                        }
+                    ]
+                },
+                {
+                    "name": "total",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 45510.87
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 33378.88
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 17412.91
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 19562.91
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 9212.54
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 13936.4
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 28585.23
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 18841.99
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 13372.73
+                        },
+                        {
+                            "name": "Car",
+                            "value": 18246.85
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 435.64
                         },
                         {
                             "name": "Rail",
-                            "value": 2542
+                            "value": 2542.04
                         },
                         {
                             "name": "Marine",
-                            "value": 8672
+                            "value": 8671.52
                         },
                         {
                             "name": "Others",
-                            "value": 52019
+                            "value": 52018.83
                         }
                     ]
                 }
             ]
         },
         {
+            "title": {
+                "text": "2011"
+            },
             "series": [
                 {
-                    "name": "2011",
-                    "type": "pie",
+                    "name": "Transport-Passenger ",
                     "data": [
                         {
-                            "name": "Space Conditioning",
-                            "value": 46204
-                        },
-                        {
-                            "name": "Cooking",
-                            "value": 32882
-                        },
-                        {
-                            "name": "industrial Process/Equipment",
-                            "value": 17855
-                        },
-                        {
-                            "name": "Lighting",
-                            "value": 20045
-                        },
-                        {
-                            "name": "Refrigeration",
-                            "value": 8962
-                        },
-                        {
-                            "name": "Hot Water",
-                            "value": 14119
-                        },
-                        {
-                            "name": "Goods Vehicle",
-                            "value": 28010
-                        },
-                        {
                             "name": "Bus",
-                            "value": 18911
+                            "value": 18910.8
                         },
                         {
                             "name": "Taxi",
-                            "value": 13593
+                            "value": 13593.12
                         },
                         {
-                            "name": "Car",
-                            "value": 18879
+                            "name": "Car ",
+                            "value": 18878.7
                         },
                         {
                             "name": "Motorcycle",
-                            "value": 424
+                            "value": 424.32
+                        },
+                        {
+                            "name": "Rail ",
+                            "value": 2609.48
+                        },
+                        {
+                            "name": "Other",
+                            "value": 4213.4
+                        }
+                    ]
+                },
+                {
+                    "name": "Commercial",
+                    "data": [
+                        {
+                            "name": "Restaurant",
+                            "value": 20967.18
+                        },
+                        {
+                            "name": "Retail",
+                            "value": 17027.09
+                        },
+                        {
+                            "name": "Office",
+                            "value": 12483.79
+                        },
+                        {
+                            "name": "Other Commercial",
+                            "value": 67184.88
+                        }
+                    ]
+                },
+                {
+                    "name": "total",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 46204.43
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 32882.14
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 17854.8
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 20045.33
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 8961.89
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 14119.09
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 28010.02
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 18910.8
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 13593.12
+                        },
+                        {
+                            "name": "Car",
+                            "value": 18878.7
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 424.32
                         },
                         {
                             "name": "Rail",
-                            "value": 2609
+                            "value": 2609.48
                         },
                         {
                             "name": "Marine",
-                            "value": 8245
+                            "value": 8244.55
                         },
                         {
                             "name": "Others",
-                            "value": 51977
+                            "value": 51977.27
                         }
                     ]
                 }
             ]
         },
         {
+            "title": {
+                "text": "2012"
+            },
             "series": [
                 {
-                    "name": "2012",
-                    "type": "pie",
+                    "name": "Transport-Passenger ",
                     "data": [
                         {
-                            "name": "Space Conditioning",
-                            "value": 47158
-                        },
-                        {
-                            "name": "Cooking",
-                            "value": 32626
-                        },
-                        {
-                            "name": "industrial Process/Equipment",
-                            "value": 18332
-                        },
-                        {
-                            "name": "Lighting",
-                            "value": 20411
-                        },
-                        {
-                            "name": "Refrigeration",
-                            "value": 8834
-                        },
-                        {
-                            "name": "Hot Water",
-                            "value": 14113
-                        },
-                        {
-                            "name": "Goods Vehicle",
-                            "value": 26941
-                        },
-                        {
                             "name": "Bus",
-                            "value": 19128
+                            "value": 19127.74
                         },
                         {
                             "name": "Taxi",
-                            "value": 13469
+                            "value": 13469.39
                         },
                         {
-                            "name": "Car",
-                            "value": 19561
+                            "name": "Car ",
+                            "value": 19560.55
                         },
                         {
                             "name": "Motorcycle",
-                            "value": 423
+                            "value": 423.07
+                        },
+                        {
+                            "name": "Rail ",
+                            "value": 2721.75
+                        },
+                        {
+                            "name": "Other",
+                            "value": 4353.67
+                        }
+                    ]
+                },
+                {
+                    "name": "Commercial",
+                    "data": [
+                        {
+                            "name": "Restaurant",
+                            "value": 20900.75
+                        },
+                        {
+                            "name": "Retail",
+                            "value": 17476.11
+                        },
+                        {
+                            "name": "Office",
+                            "value": 12662.71
+                        },
+                        {
+                            "name": "Accomodation",
+                            "value": 13961.27
+                        },
+                        {
+                            "name": "Human Health",
+                            "value": 5562.6
+                        },
+                        {
+                            "name": "Education",
+                            "value": 3273.37
+                        },
+                        {
+                            "name": "Other Commercial",
+                            "value": 46005.62
+                        }
+                    ]
+                },
+                {
+                    "name": "total",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 47158.32
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 32626.2
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 18331.93
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 20411.27
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 8833.88
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 14112.6
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 26940.74
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 19127.74
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 13469.39
+                        },
+                        {
+                            "name": "Car",
+                            "value": 19560.55
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 423.07
                         },
                         {
                             "name": "Rail",
-                            "value": 2722
+                            "value": 2721.75
                         },
                         {
                             "name": "Marine",
-                            "value": 8077
+                            "value": 8077.16
                         },
                         {
                             "name": "Others",
-                            "value": 54086
+                            "value": 54086.39
                         }
                     ]
                 }
             ]
         },
         {
+            "title": {
+                "text": "2013"
+            },
             "series": [
                 {
-                    "name": "2013",
-                    "type": "pie",
+                    "name": "Transport-Passenger ",
                     "data": [
                         {
-                            "name": "Space Conditioning",
-                            "value": 45562
-                        },
-                        {
-                            "name": "Cooking",
-                            "value": 32792
-                        },
-                        {
-                            "name": "industrial Process/Equipment",
-                            "value": 18669
-                        },
-                        {
-                            "name": "Lighting",
-                            "value": 20446
-                        },
-                        {
-                            "name": "Refrigeration",
-                            "value": 8716
-                        },
-                        {
-                            "name": "Hot Water",
-                            "value": 14226
-                        },
-                        {
-                            "name": "Goods Vehicle",
-                            "value": 25534
-                        },
-                        {
                             "name": "Bus",
-                            "value": 19144
+                            "value": 19144.08
                         },
                         {
                             "name": "Taxi",
-                            "value": 13319
+                            "value": 13319.19
                         },
                         {
-                            "name": "Car",
-                            "value": 21158
+                            "name": "Car ",
+                            "value": 21157.84
                         },
                         {
                             "name": "Motorcycle",
-                            "value": 406
+                            "value": 405.59
+                        },
+                        {
+                            "name": "Rail ",
+                            "value": 2796.03
+                        },
+                        {
+                            "name": "Other",
+                            "value": 4536.12
+                        }
+                    ]
+                },
+                {
+                    "name": "Commercial",
+                    "data": [
+                        {
+                            "name": "Restaurant",
+                            "value": 20862.96
+                        },
+                        {
+                            "name": "Retail",
+                            "value": 17237.36
+                        },
+                        {
+                            "name": "Office",
+                            "value": 12544.2
+                        },
+                        {
+                            "name": "Accomodation",
+                            "value": 15468.94
+                        },
+                        {
+                            "name": "Human Health",
+                            "value": 5580.76
+                        },
+                        {
+                            "name": "Education",
+                            "value": 3214.78
+                        },
+                        {
+                            "name": "Other Commercial",
+                            "value": 45056.27
+                        }
+                    ]
+                },
+                {
+                    "name": "total",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 45562.37
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 32792.3
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 18668.63
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 20446.11
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 8715.98
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 14225.63
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 25534.13
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 19144.08
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 13319.19
+                        },
+                        {
+                            "name": "Car",
+                            "value": 21157.84
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 405.59
                         },
                         {
                             "name": "Rail",
-                            "value": 2796
+                            "value": 2796.03
                         },
                         {
                             "name": "Marine",
-                            "value": 7739
+                            "value": 7738.97
                         },
                         {
                             "name": "Others",
-                            "value": 53703
+                            "value": 53702.82
                         }
                     ]
                 }
             ]
         },
         {
+            "title": {
+                "text": "2014"
+            },
             "series": [
                 {
-                    "name": "2014",
-                    "type": "pie",
+                    "name": "Transport-Passenger ",
                     "data": [
                         {
-                            "name": "Space Conditioning",
-                            "value": 50129
-                        },
-                        {
-                            "name": "Cooking",
-                            "value": 32674
-                        },
-                        {
-                            "name": "industrial Process/Equipment",
-                            "value": 19065
-                        },
-                        {
-                            "name": "Lighting",
-                            "value": 20421
-                        },
-                        {
-                            "name": "Refrigeration",
-                            "value": 9145
-                        },
-                        {
-                            "name": "Hot Water",
-                            "value": 14241
-                        },
-                        {
-                            "name": "Goods Vehicle",
-                            "value": 25009
-                        },
-                        {
                             "name": "Bus",
-                            "value": 18659
+                            "value": 18658.65
                         },
                         {
                             "name": "Taxi",
-                            "value": 14133
+                            "value": 14133.31
+                        },
+                        {
+                            "name": "Car ",
+                            "value": 21085.06
+                        },
+                        {
+                            "name": "Motorcycle",
+                            "value": 426
+                        },
+                        {
+                            "name": "Rail ",
+                            "value": 2875.3
+                        },
+                        {
+                            "name": "Other",
+                            "value": 4547.12
+                        }
+                    ]
+                },
+                {
+                    "name": "Commercial",
+                    "data": [
+                        {
+                            "name": "Restaurant",
+                            "value": 20829.38
+                        },
+                        {
+                            "name": "Retail",
+                            "value": 17772.02
+                        },
+                        {
+                            "name": "Office",
+                            "value": 12791.12
+                        },
+                        {
+                            "name": "Accomodation",
+                            "value": 15731.07
+                        },
+                        {
+                            "name": "Human Health",
+                            "value": 5753.15
+                        },
+                        {
+                            "name": "Education",
+                            "value": 3269.7
+                        },
+                        {
+                            "name": "Other Commercial",
+                            "value": 45333.83
+                        }
+                    ]
+                },
+                {
+                    "name": "total",
+                    "data": [
+                        {
+                            "name": "Space Conditioning",
+                            "value": 50128.82
+                        },
+                        {
+                            "name": "Cooking",
+                            "value": 32674.48
+                        },
+                        {
+                            "name": "industrial Process/Equipment",
+                            "value": 19065.09
+                        },
+                        {
+                            "name": "Lighting",
+                            "value": 20420.98
+                        },
+                        {
+                            "name": "Refrigeration",
+                            "value": 9145.03
+                        },
+                        {
+                            "name": "Hot Water",
+                            "value": 14241.26
+                        },
+                        {
+                            "name": "Goods Vehicle",
+                            "value": 25009.05
+                        },
+                        {
+                            "name": "Bus",
+                            "value": 18658.65
+                        },
+                        {
+                            "name": "Taxi",
+                            "value": 14133.31
                         },
                         {
                             "name": "Car",
-                            "value": 21085
+                            "value": 21085.06
                         },
                         {
                             "name": "Motorcycle",
@@ -800,15 +1389,15 @@
                         },
                         {
                             "name": "Rail",
-                            "value": 2875
+                            "value": 2875.3
                         },
                         {
                             "name": "Marine",
-                            "value": 7705
+                            "value": 7705.22
                         },
                         {
                             "name": "Others",
-                            "value": 53592
+                            "value": 53591.8
                         }
                     ]
                 }
